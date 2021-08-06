@@ -12,7 +12,7 @@ const HeaderButton = (props) => {
     setBump(true);
     const timer = setTimeout(setBump.bind(null, false), 300);
 
-    return () => clearTimeout(timer);
+    // return () => clearTimeout(timer);
   }, [itemTotal]);
   return (
     <button
